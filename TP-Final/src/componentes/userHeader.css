@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #333;
+  }
+.navBar {
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+  
+.navOrder {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+.navOrder li {
+    margin-right: 15px;
+}
+  
+.navList {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+  
+.navList:hover {
+    color: yellow;
+}
+  
