@@ -1,20 +1,18 @@
-/* import React from "react"; */
-import { Link } from 'react-dom';
-import "userMain"
-/* import "./userHeader.css"; */
+
+import "./userHeader.css";
 
 const UserHeader = () => {
 return(
-    <nav>
+    <nav className="navBar">
         <ul>
             <li>
-                <Link to="/">Inicio</Link>
+                <a href='#'>Inicio</a>
             </li>
             <li>
-                <Link to="./userMain.jsx">Reserva de Paseos</Link>
+                <a href='#'>Reserva de Paseos</a>
             </li>
             <li>
-                <Link to="/">Momentos en Fotos</Link>
+                <a href='#'>Momentos en Fotos</a>
             </li>
         </ul>
     </nav>
